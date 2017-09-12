@@ -10,6 +10,7 @@
     $> ./circbuff <test_file> [-v]  
 test_file : file that will be used for feeding the circular buffer  
 -v : use for verbose mode, optional  
+
 ### Example:
     ./circbuff circbuff.c -v
 
@@ -22,4 +23,4 @@ Provided max value must be power of two.
 
 ## Notes:
 * All commands are assumed to be ran from project root.
-* Tested on Linux (lubuntu), but should work in any system with make and gcc.
+* Tested on Linux (lubuntu), but should work on any system with make and gcc.
